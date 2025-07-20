@@ -1,0 +1,23 @@
+# Dependencias
+node_modules
+.bun
+
+# Build
+dist
+*.log
+
+# Environment
+.env
+.env.local
+
+# IDE
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Misc
+.DS_Store

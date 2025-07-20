@@ -10,7 +10,7 @@ export const mentalGames = [
     // ... otros juegos
   ];
   
-  export default function MentalGamesManager() {
+export default function MentalGamesManager() {
     const { userLevel } = useGamification();
     
     return (
@@ -24,4 +24,4 @@ export const mentalGames = [
           ))
       </Tabs>
     );
-  }
+}

@@ -1,3 +1,5 @@
+import { useGamification } from "../../lib/octalframework";
+
 export default function ConsciousnessBanner() {
     const { currentGoal } = useGamification();
     
